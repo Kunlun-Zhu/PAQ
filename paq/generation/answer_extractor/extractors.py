@@ -60,7 +60,8 @@ class SpacyNERExtractor:
                     "text": ent.text,
                     "start": ent.start_char,
                     "end": ent.end_char,
-                    "score": None
+                    "score": None,
+                    "label":ent.label_
                 })
             all_answers.append(answers)
 
